@@ -1,0 +1,18 @@
+:root{
+--pale-purple: #f1e3f3ff;
+--periwinkle: #c2bbf0ff;
+--jordy-blue: #8fb8edff;
+--deep-sky-blue: #62bfedff;
+--dodger-blue: #3590f3ff;
+
+--primary:  #f1e3f3ff;
+--secondary: #c2bbf0ff;
+--accent: #8fb8edff;
+--info: #62bfedff;
+--highlight: #3590f3ff;
+--background: #ffffff;
+--surface: #f8f9fa;
+--text-primary: #22223b;
+--text-secondary: #4a4e69;
+--border: #e0e0e0;
+}
