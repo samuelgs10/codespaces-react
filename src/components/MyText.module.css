@@ -1,0 +1,24 @@
+.container {
+   margin: 0 auto;
+   max-width: 80rem;
+}
+
+.div {
+  background-color: var(--background);
+  color: var(--info);
+  box-shadow: 0 0 1rem var(--text-secondary);
+  padding: 3rem;
+  margin: 3rem 5rem;
+  border-radius: 2rem;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 4rem;
+  color: var(--highlight);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.text {
+  font-size: 2rem;
+}
