@@ -1,0 +1,28 @@
+.container {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* centraliza horizontalmente */
+  justify-content: flex-start; /* alinha no topo verticalmente */
+  height: 100vh;
+  width: 100vw;               /* garante largura total */
+  box-sizing: border-box;     /* inclui padding dentro da largura */
+  background-color: var(--primary-color, #0db2e4);
+}
+
+
+.button {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  color: var(--primary-color, #d41818);
+  background-color: var(--primary-color, #ebd619);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--primary-color-hover, #34db25);        
+  color: var(--primary-color-hover, #91df15);
+}
