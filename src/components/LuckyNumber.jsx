@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styles from './LuckyNumber.module.css';
 
 export function LuckyNumber() {
-  const [luckyNumber, setLuckyNumber] = useState(null);
+  const [luckyNumber, setLuckyNumber] = useState(0);
   const [numbersDrawn, setNumbersDrawn] = useState([]);
   const [message, setMessage] = useState('');
 
@@ -18,7 +18,13 @@ export function LuckyNumber() {
     }
   }  return (
     <div className={styles.container}>
-      <h1>Lucky Number = {luckyNumber || ''}</h1>
+      {luckyNumber === 0 ? (
+        <h1> Lucky Number 🎲</h1>
+      ) : (
+      <h1>Lucky Number = {luckyNumber}</h1>
+
+      )}
+
       {message && <p style={{ color: 'red' }}>{message}</p>}
 
       <button className={styles.button} onClick={handleClick}>
